@@ -1,0 +1,86 @@
+
+.formulario__container {
+    width: 430px;
+    min-width: 430px;
+}
+
+.formulario{
+    width: 396px;
+    height: 325px;
+    display: flex;
+    flex-flow: column; 
+   justify-content: space-evenly;
+    background-color: var(--cor-form);
+    box-shadow: 1px 1px 2px 2px #d6d7db,-1px -1px 2px 0px #d6d7db;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+   
+  
+}
+
+#email, #senha{
+    width: calc(100% - 20px);
+    margin: 5px 10px;
+    padding: 1rem;
+    border: 2px solid #e9ebee;
+    border-radius: 5px;
+}
+
+#email::placeholder, #senha::placeholder{
+    font-size: 1rem;
+}
+
+.botao__entrar {
+    width: calc(100% - 20px);
+    margin:0 10px;
+    background-color: var(--cor-button--blue);
+    padding: .6rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.link__senha{
+    color:#1878f3;
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+.link__senha::after {
+    content: "";
+    width: 20rem;
+    height: 1px;
+    margin: 1rem 10px;
+    background-color: #dcdddf;
+    display: block;
+}
+
+.botao__nova___conta {
+    background-color: var(--cor-button--green);
+    width: 40%;
+    margin: 0 10px;
+    padding: .8rem;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.link__pagina {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.criar__pagina {
+    width: 396px;
+    text-align: center;
+}
+
+.link__senha:hover,.link__pagina:hover {
+    text-decoration: underline;
+}
