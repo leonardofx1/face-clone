@@ -43,6 +43,11 @@
     color: white;
 }
 
+.botao__entrar:hover{
+    cursor: pointer;
+    opacity: 90%;
+}
+
 .link__senha{
     color:#1878f3;
     text-decoration: none;
